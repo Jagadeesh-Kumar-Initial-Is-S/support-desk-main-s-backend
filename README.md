@@ -8,7 +8,7 @@ Task - Registration,Login and CRUD Action using MERN stack backend
 
 # Brief
 
-Kindly update the relevant parameters to test.
+Kindly update the relevant environment variabes to test.
 
 <hr/>
 
