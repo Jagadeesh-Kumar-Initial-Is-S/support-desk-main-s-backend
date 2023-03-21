@@ -1,14 +1,23 @@
 <hr/>
 
-<!-- # Task
+# Task
 
-Task - Registration,Login and CRUD Action using MERN stack backend
+Task - Support Desk API's backend
 
-<hr/> -->
+<hr/>
 
 # Brief
 
 Kindly update the relevant environment variabes to test.
+
+<hr/>
+
+# Environment Variable
+
+NODE_ENV = development
+PORT = 5000
+MONGO_URI = mongodb+srv://your username and your password
+JWT_SECRET = abc123
 
 <hr/>
 
@@ -30,17 +39,17 @@ Database which is used is equal to MongoDB
 
 <hr/>
 
-<!-- # Back-end Source code
+# Back-end Source code
 
-Back-end Source code's link is equal to https://github.com/Jagadeesh-Kumar-Initial-Is-S/Registration-Login-and-CRUD-Action-using-MERN-stack-backend .
+Back-end Source code's link is equal to https://github.com/Jagadeesh-Kumar-Initial-Is-S/support-desk-main-s-backend .
 
 <hr/>
 
 # Back-end Deployed URL
 
-Back-end Deployed URL's link is equal to https://registration-login-and-crud-action-using-mern-stack-backend.vercel.app/ .
+Back-end Deployed URL's link is equal to https://support-desk-main-s-backend.vercel.app/ .
 
-<hr/> -->
+<hr/>
 
 <!-- # Screenshots
 
@@ -48,7 +57,7 @@ Back-end Deployed URL's link is equal to https://registration-login-and-crud-act
   
 <hr/> -->
 
-<!-- # Front-end
+# Front-end
 
 Front-end which is used is equal to Reactjs
 
@@ -56,12 +65,12 @@ Front-end which is used is equal to Reactjs
 
 # Front-end Source code
 
-Front-end Source code's link is equal to .
+Front-end Source code's link is equal to https://github.com/Jagadeesh-Kumar-Initial-Is-S/support-desk-main-s-frontend .
 
 <hr/>
 
 # Front-end Deployed URL
 
-Back-end Deployed URL's link is equal to .
+Back-end Deployed URL's link is equal to https://support-desk-main-s-frontend.vercel.app/ .
 
-<hr/> -->
+<hr/>
