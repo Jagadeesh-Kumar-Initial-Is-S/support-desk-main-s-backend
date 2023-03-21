@@ -1,5 +1,6 @@
 const path = require('path')
 const express = require('express')
+var cors = require('cors')
 require('colors')
 require('dotenv').config()
 const { errorHandler } = require('./middleware/errorMiddleware')
@@ -10,6 +11,8 @@ const PORT = process.env.PORT || 5000
 connectDB()
 
 const app = express()
+ 
+app.use(cors())
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
@@ -30,7 +33,7 @@ if (process.env.NODE_ENV === 'production') {
 } else {
   app.get('/', (_, res) => {
     res.status(200).json({ message: 'Welcome to the Support Desk API',
-    advertisement: 'Submitted and coded by Jagadeesh Kumar . S, you may send mail to my email address which is jagadeesh_2k17@proton.me, you may contribute some money to my Indian Unified Payment Interface (UPI) which is jagadeesh-kumar@ybl .' })
+    advertisement: 'Submitted and coded by Jagadeesh Kumar . S, you may send mail to my email address which is jagadeesh_2k17@proton.me and you may contribute some money to my Indian Unified Payment Interface (UPI) which is jagadeesh-kumar@ybl .' })
   })
 }
 
