@@ -12,7 +12,7 @@ connectDB()
 
 const app = express()
  
-app.use(cors('Access-Control-Allow-Origin:*'))
+app.use(cors({ origin: 'https://proshop-mern-s-frontend.vercel.app' , credentials :  true}));
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
